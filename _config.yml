@@ -1,0 +1,18 @@
+# standard jekyll configuration
+
+permalink: date
+pygments: true
+exclude: ['Makefile', 'README.md', '_ignore']
+markdown: maruku
+
+# configuration required for some pages
+
+domain: stthomasmorewollaton.org.uk
+title: Catholic Church of St Thomas More, Wollaton
+author: Richard Mortier
+email: mort@cantab.net
+
+# configuration for ehancements, uncomment to enable
+
+google_analytics:
+  account: UA-36588644-1
