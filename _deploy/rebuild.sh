@@ -22,5 +22,6 @@
 set -ex
 
 cd /home/stthnorg/stm-www
-jekyll --safe ../public_html
+
+jekyll --safe ../public_html && touch .rebuilt
 
