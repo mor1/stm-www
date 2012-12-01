@@ -20,6 +20,8 @@ Glenwood Close,
 Wollaton,
 Nottingham NG8 2GA
 
+Telephone: 0115 922 8145
+
 ### Priests
 
 Rev. Anthony Cordes (Deacon)
