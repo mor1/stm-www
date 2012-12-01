@@ -15,13 +15,14 @@ site: css _config.yml
 	$(JEKYLL)
 
 test: css
-	$(JEKYLL) --auto --serve --safe
+	$(JEKYLL) --auto --serve --safe --lsi
 
 clean:
 	$(RM) -r _site css
 
-deploy: site
-	$(MIRROR) \
-		_site/ \
-		stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/public_html/
-	scp -P 722 .ht* stthnorg@stthomasmorewollaton.org.uk:~/public_html
+deploy: 
+## don't push the built "_site" as we want to let the cronjob build it on the
+## server. this permits upload and automatic publishing of commentaries etc.
+	$(MIRROR) --exclude "_site" --exclude ".git" \
+		. \
+		stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
