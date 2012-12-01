@@ -7,9 +7,7 @@ title: St Thomas More Roman Catholic Church, Wollaton
 
 # St. Thomas More, Wollaton<br/><small>Roman Catholic Church</small>
 
-## Welcome!
-
-These pages are currently under construction!
+Welcome! These pages are currently under construction.
 
 ## <a id="contact"> </a>Contact
 
