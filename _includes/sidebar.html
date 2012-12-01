@@ -1,22 +1,29 @@
 <ul class="nav nav-list">
-  <li class="nav-header active">
-    <a href="">Home</a>
+  <li class="nav-header {% if page.active == "home" %}active{% endif %}">
+    <a href="/">Home</a>
   </li>
-
-  <li class="nav-header">Worship</li>
-  <li><a href="#">Times</a></li>
-  <li><a class="external" target="_blank"
-         href="http://www.universalis.com/Europe.England.Westminster/mass.htmsalis.com/mass.htm">
-    Today's Readings
-  </a></li>
-  <li><a href="#">Commentaries</a></li>
-  <li><a class="external" target="_blank"
-         href="http://www.easterbrooks.com/personal/calendar/ecclcal.html">
-    Calendar
-  </a></li>
+  <li class="{% if page.active == "worship" %}active{% endif %}">
+    <a href="/worship/">Worship</a>
+  </li>
+  <li>
+    <a class="external" target="_blank"
+       href="http://www.universalis.com/Europe.England.Westminster/mass.htmsalis.com/mass.htm">
+      Today's Readings
+    </a>
+  </li>
+  <li class="{% if page.active == "commentary" %}active{% endif %}">
+    <a href="/commentaries/">Commentaries</a>
+  </li>
+  <li>
+    <a class="external" target="_blank"
+       href="http://www.easterbrooks.com/personal/calendar/ecclcal.html">
+      Calendar
+    </a>
+  </li>
+  <li><a href="/#contact">Contact Us!</a></li>
   
   <li class="nav-header">News</li>
-  <li><a href="#">Newsletter</a></li>
+  <li><a href="#">Newsletters</a></li>
   <li><a href="#">Diary</a></li>
   <li><a href="#">Past Events</a></li>
 
@@ -29,18 +36,15 @@
   <li><a class="external" target="_blank"
          href="http://www.nottingham-diocese.org.uk/">Diocese</a></li>
   <li><a class="external" target="_blank"
-         href="http://www.vatican.va/phome_en.htm">Vatican</a></li>
+         href="http://www.vatican.va/phome_en.htm">The Vatican</a></li>
   <li><a class="external" target="_blank"
          href="http://www.proecclesia.com/penny%20catechism/">
     Catechism
   </a></li>
-  <li><a class="external" target="_blank"
-         href="http://www.proecclesia.com/page_prayers%20used%20by%20catholics.htm">
-    Prayers
-  </a>
-  </li>
-
-  <li class="nav-header">
-    <a href="">Contact Us!</a>
+  <li>
+    <a class="external" target="_blank"
+       href="http://www.proecclesia.com/page_prayers%20used%20by%20catholics.htm">
+      Prayers
+    </a>
   </li>
 </ul>
