@@ -9,7 +9,7 @@ active: worship
 
 Sunday Mass: 6.30pm (vigil), 10.45am
 
-Holy Days: 19.30
+Holy Days: 7.30pm
 
 #### Weekdays: 
 
