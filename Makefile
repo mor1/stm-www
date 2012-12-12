@@ -24,6 +24,7 @@ deploy:
 ## don't push the built "_site" as we want to let the cronjob build it on the
 ## server. this permits upload and automatic publishing of commentaries etc.
 	$(MIRROR) --exclude "_site" \
+                --exclude ".rebuilt" \
                 --exclude ".git" --exclude ".gitignore" --exclude ".gitmodules" \
 	    . \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
