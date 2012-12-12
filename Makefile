@@ -15,7 +15,7 @@ site: css _config.yml
 	$(JEKYLL)
 
 test: css
-	$(JEKYLL) --auto --serve --safe --lsi
+	$(JEKYLL) --auto --serve --safe 
 
 clean:
 	$(RM) -r _site css
