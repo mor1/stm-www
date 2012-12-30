@@ -1,6 +1,7 @@
 ---
 layout: page
 active: worship
+image: church-front.jpeg
 ---
 
 ## <a id="worship"> </a>Worship
