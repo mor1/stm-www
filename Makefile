@@ -21,7 +21,9 @@
 LESSC = lessc
 JEKYLL = jekyll
 
-MIRROR = rsync -avz --rsh="ssh -p 722" --delete
+MIRROR = rsync -avz --rsh="ssh -p 722" --delete \
+	--exclude "_site" --exclude ".rebuilt" \
+	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules"
 
 css: css/stmwww.css
 css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
@@ -40,17 +42,13 @@ clean:
 deploy: 
 ## don't push the built "_site" as we want to let the cronjob build it on the
 ## server. this permits upload and automatic publishing of commentaries etc.
-	$(MIRROR) --exclude "_site" \
-                --exclude ".rebuilt" \
-                --exclude ".git" --exclude ".gitignore" --exclude ".gitmodules" \
-	    . \
+	$(MIRROR) \
+		. \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
 
 retrieve: 
 ## recover site source from server, allowing retrieval of results of
 ## commentary, etc import..
-	$(MIRROR) --exclude "_site" \
-                --exclude ".rebuilt" \
-                --exclude ".git" --exclude ".gitignore" --exclude ".gitmodules" \
+	$(MIRROR) \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
