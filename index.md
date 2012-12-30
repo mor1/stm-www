@@ -37,7 +37,7 @@ Rev. Canon Ka Fai Lee (Parochial Administrator)
 
 =--
 
-## For More Information...
+## Related Links
 
 +-- {.dl-horizontal}
 
