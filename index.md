@@ -50,7 +50,7 @@ Rev. Canon Ka Fai Lee (Parochial Administrator)
 [The Vatican](http://www.vatican.va/phome_en.htm)
 : Official website
 
-[Today's Readings](http://www.universalis.com/Europe.England/mass.htm)
+[Today's Readings](http://www.universalis.com/Europe.England.Westminster/mass.htm)
 : Mass readings for today
 
 [Fr. Philip O'Dowd](http://philip-o-dowd.com/)
