@@ -6,7 +6,7 @@ description: Parish history
 title: History of the Parish
 ---
 
-# St. Thomas More Wollaton -- a brief history
+# St. Thomas More Wollaton<br /><small>A Brief History</small>
 
 Wollaton, a village to the west of Nottingham, was brought into the City boundaries in 1933 thus increasing the area available for housing, both private and public. With this development the number of Catholics in the area increased. At this time catholics attended mass at St. Paul's Lenton 2 miles away nearer the centre of the city.
 
