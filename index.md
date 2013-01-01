@@ -18,12 +18,15 @@ Welcome! These pages are currently under construction, so some of the links may 
 ### Address
 
 <address>
-St. Thomas More Wollaton,<br />
-Glenwood Close,<br />
-Wollaton,<br />
-Nottingham NG8 2GA<br />
-
-<abbr title="Phone">Telephone:</abbr> 0115 922 8145
+  <p>
+    St. Thomas More Wollaton,<br />
+    Glenwood Close,<br />
+    Wollaton,<br />
+    Nottingham NG8 2GA
+  </p>
+  <p>
+    <abbr title="Phone">Telephone:</abbr> 0115 922 8145
+  </p>
 </address>
 =--
 
@@ -33,6 +36,9 @@ Nottingham NG8 2GA<br />
 Rev. Anthony Cordes (Deacon)
 
 Rev. Canon Ka Fai Lee (Parochial Administrator)
+
+With much joy, we welcome Fr. Robert O'Callaghan as our new Parish Priest from January 1st, 2013.
+
 =--
 
 =--
