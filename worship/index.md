@@ -8,7 +8,7 @@ image: church-front.jpeg
 
 ### Mass Times
 
-Sunday Mass: 6.30pm (vigil), 10.45am
+Sunday Mass: 6.30pm (Saturday vigil), 10.45am
 
 Holy Days: 7.30pm
 

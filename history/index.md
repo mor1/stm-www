@@ -8,7 +8,7 @@ title: History of the Parish
 
 # St. Thomas More Wollaton<br /><small>A Brief History</small>
 
-Wollaton, a village to the west of Nottingham, was brought into the City boundaries in 1933 thus increasing the area available for housing, both private and public. With this development the number of Catholics in the area increased. At this time catholics attended mass at St. Paul's Lenton 2 miles away nearer the centre of the city.
+Wollaton, a village to the west of Nottingham, was brought into the City boundaries in 1933 thus increasing the area available for housing, both private and public. With this development the number of Catholics in the area increased. At this time Catholics attended mass at St. Paul's Lenton 2 miles away nearer the centre of the city.
 
 In 1941 the Sunday bus service from Wollaton to Nottingham was suspended because of the need to conserve fuel for the war effort. As a result several elderly and infirm parishioners could not attend mass. In view of this, the parish priest of St. Paul's having been approached by his parishioners in Wollaton agreed to say mass in the local Church of England School at 9.00am on Sundays and the idea of the parish was born! Eventually a plot of land was purchased in the area and in 1955 the building of a Chapel of Ease began. The Parish Priest of St. Paul's at this time was Canon Robert Thornhill. The Church was completed in 1956 by which time Canon Thornhill had been replaced by Mgr Eric Graser (later Bishop of Shrewsbury). The Church was named St. Thomas More and was designed as a dual purpose building with a sliding partition between the sanctuary and main body of the building to enable it to be used for Social events as well as liturgical ones.
 
