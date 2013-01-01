@@ -22,7 +22,7 @@ LESSC = lessc
 JEKYLL = jekyll
 
 MIRROR = rsync -avz --rsh="ssh -p 722" --delete \
-	--exclude "_site" --exclude ".rebuilt" \
+	--exclude "_site" --exclude "_bootstrap" --exclude ".rebuilt" \
 	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules"
 
 css: css/stmwww.css
@@ -39,7 +39,7 @@ test: css
 clean:
 	$(RM) -r _site css
 
-deploy: 
+deploy: css
 ## don't push the built "_site" as we want to let the cronjob build it on the
 ## server. this permits upload and automatic publishing of commentaries etc.
 	$(MIRROR) \
