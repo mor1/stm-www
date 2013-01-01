@@ -46,6 +46,11 @@ deploy:
 		. \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
 
+rebuild:
+## invoke the rebuild script on the server; assumes have deployed.
+	ssh -p 722 stthnorg@stthomasmorewollaton.org.uk \
+		"./stm-www/_deploy/rebuild.sh"
+
 retrieve: 
 ## recover site source from server, allowing retrieval of results of
 ## commentary, etc import..
