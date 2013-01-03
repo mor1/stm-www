@@ -45,7 +45,7 @@ Fr. John Abbott (Retired Priest)
 
 ## Related Links
 
-+-- {.dl-horizontal}
++-- {.dl-horizontal .dl-wide}
 
 [The Assumption, Beeston](http://www.theassumption.co.uk/)
 : Our linked parish
