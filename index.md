@@ -47,6 +47,9 @@ Fr. John Abbott (Retired Priest)
 
 +-- {.dl-horizontal}
 
+[The Assumption, Beeston](http://www.theassumption.co.uk/)
+: Our linked parish
+
 [St. Thomas More](http://www.apostles.com/thomasmore.html)
 : About our patron saint
 
