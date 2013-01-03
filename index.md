@@ -31,13 +31,13 @@ Welcome! These pages are currently under construction, so some of the links may 
 =--
 
 +-- {.span6}
-### Priests
+### Clergy
+
+Fr. Robert O'Callaghan (Parish Priest)
 
 Rev. Anthony Cordes (Deacon)
 
-Rev. Canon Ka Fai Lee (Parochial Administrator)
-
-With much joy, we welcome Fr. Robert O'Callaghan as our new Parish Priest from January 1st, 2013.
+Fr. John Abbott (Retired Priest)
 
 =--
 
