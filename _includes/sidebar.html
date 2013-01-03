@@ -25,7 +25,9 @@
   <li class="nav-header">News</li>
   <li><a href="/">Blog</a></li>
   <li><a href="/">Newsletters</a></li>
-  <li><a href="/">Parish Magazine</a></li>
+  <li class="{% if page.active == "magazines" %}active{% endif %}">
+    <a href="/magazines/">Parish Magazine</a>
+  </li>
   <li><a href="/">Social/Liturgical Calendar</a></li>
 
   <li class="nav-header">Groups</li>
