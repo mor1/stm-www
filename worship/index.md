@@ -22,5 +22,4 @@ Saturday: 9.00am
 
 ### Confessions
 
-Saturday: 9.30am; or by appointment
-
+Saturday: 9.30am; or [by appointment](mailto:info@stthomasmorewollaton.org.uk)
