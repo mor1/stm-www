@@ -1,6 +1,6 @@
 # standard jekyll configuration
 
-permalink: date
+permalink: pretty
 pygments: true
 exclude: ['Makefile', 'README.md', '_ignore']
 markdown: maruku
