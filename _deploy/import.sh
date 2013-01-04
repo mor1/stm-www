@@ -19,7 +19,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
 # USA.
 
-set -eux
+set -ux
 
 ROOT=$(dirname $0)/../..
 IND=$ROOT/incoming
@@ -29,16 +29,19 @@ cd $IND
 for d in * ; do
     pushd $d
     for f in *.pdf ; do
+        echo ${f%.pdf}
+        [ ! -r $f ] && continue
+        OUTD_D=$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
+        mkdir -p $(dirname $OUTD_D)
         OUTF=$OUTD/$d/_posts/${f%.pdf}.html
-        LINK=/$d/$f
+        LINK=/$d/pdfs/$f
         cat > $OUTF <<EOF
 ---
 layout: link
 link: $LINK
-permalink: /$d/:year-:month-:day-:title.html
 ---
 EOF
-        mv $f $OUTD/$d/_posts
+        cp $f $OUTD/$d/pdfs
     done
     popd
 done
