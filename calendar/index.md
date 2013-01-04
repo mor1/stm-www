@@ -1,19 +1,19 @@
 ---
 layout: page
-active: commentary
+active: calendar
 image: church-side.jpeg
 ---
 
-# Gospel Commentaries <small>Deacon Anthony</small> 
+# 
 
 +-- {.clearfix}
 &nbsp;
 =--
 
-+-- {.commentaries .dl-horizontal}
++-- {.calendar .dl-horizontal}
 <section>
   <dl>
-  {% for post in site.categories.commentaries %}
+  {% for post in site.categories.calendar %}
     <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
     <dd>
       <a href="{{ post.url }}">{{ post.title }}</a>

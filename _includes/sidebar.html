@@ -24,15 +24,25 @@
 
   <li class="nav-header">News</li>
   <li><a href="/">Blog</a></li>
-  <li><a href="/">Newsletters</a></li>
+  <li class="{% if page.active == "newsletters" %}active{% endif %}">
+    <a href="/newsletters/">Newsletters</a>
+  </li>
   <li class="{% if page.active == "magazines" %}active{% endif %}">
     <a href="/magazines/">Parish Magazine</a>
   </li>
-  <li><a href="/">Social/Liturgical Calendar</a></li>
+  <li class="{% if page.active == "calendar" %}active{% endif %}">
+    <a href="/calendar/">Social/Liturgical Calendar</a>
+  </li>
 
   <li class="nav-header">Groups</li>
-  <li><a href="/">Pastoral Council</a></li>
-  <li><a href="/">Justice &amp; Peace</a></li>
-  <li><a href="/">Zone 3</a></li>
+  <li class="{% if page.active == "pastoral-council" %}active{% endif %}">
+    <a href="/pastoral-council/">Pastoral Council</a>
+  </li>
+  <li class="{% if page.active == "justice-peace" %}active{% endif %}">
+    <a href="/justice-peace/">Justice &amp; Peace</a>
+  </li>
+  <li class="{% if page.active == "zone-3" %}active{% endif %}">
+    <a href="/zone-3/">Zone 3</a>
+  </li>
 
 </ul>

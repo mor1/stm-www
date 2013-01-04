@@ -1,19 +1,19 @@
 ---
 layout: page
-active: commentary
+active: zone-3
 image: church-side.jpeg
 ---
 
-# Gospel Commentaries <small>Deacon Anthony</small> 
+#
 
 +-- {.clearfix}
 &nbsp;
 =--
 
-+-- {.commentaries .dl-horizontal}
++-- {.zone-3 .dl-horizontal}
 <section>
   <dl>
-  {% for post in site.categories.commentaries %}
+  {% for post in site.categories.zone-3 %}
     <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
     <dd>
       <a href="{{ post.url }}">{{ post.title }}</a>

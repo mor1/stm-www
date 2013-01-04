@@ -1,19 +1,19 @@
 ---
 layout: page
-active: commentary
+active: justice-peace
 image: church-side.jpeg
 ---
 
-# Gospel Commentaries <small>Deacon Anthony</small> 
+# 
 
 +-- {.clearfix}
 &nbsp;
 =--
 
-+-- {.commentaries .dl-horizontal}
++-- {.justice-peace .dl-horizontal}
 <section>
   <dl>
-  {% for post in site.categories.commentaries %}
+  {% for post in site.categories.justice-peace %}
     <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
     <dd>
       <a href="{{ post.url }}">{{ post.title }}</a>

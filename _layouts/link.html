@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1;url={{ page.link }}">
+    <script language="javascript">
+      window.location.href = "{{ page.link }}"
+    </script>
+    <title>Page Redirection</title>
+
+    {% if site.google_analytics %}
+    <!-- google analytics async -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); 
+      ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ?
+          'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <p>
+      If you are not redirected automatically, follow
+      <a href="{{ page.link }}">
+        the link
+      </a>
+    </p>
+
+    <div class="well small">
+      <footer class="align-right">
+<!--
+        Powered by <a href="https://github.com/mojombo/jekyll">jekyll</a>.
+        Copyright &copy; 2012
+        <a href="mailto:mort@cantab.net">Richard Mortier</a>.
+-->
+        
+        Contact us about the 
+        <a href="mailto:webmaster@stthomasmorewollaton.org.uk">website</a>
+        or with
+        <a href="mailto:info@stthomasmorewollaton.org.uk">any general
+          enquiries</a>.
+        Hosting provided by <a href="http://krystal.co.uk/">Krystal</a>.
+      </footer>
+    </div>
+
+  </body>
+</html>
