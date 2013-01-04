@@ -31,7 +31,7 @@ css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
 	$(LESSC) --compress _less/stmwww.less >| css/stmwww.css
 
 site: css _config.yml
-	$(JEKYLL)
+	$(JEKYLL) --safe
 
 test: css
 	$(JEKYLL) --auto --serve --safe 
