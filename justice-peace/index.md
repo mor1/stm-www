@@ -4,7 +4,7 @@ active: justice-peace
 image: church-side.jpeg
 ---
 
-# 
+# Justice &amp; Peace <small>diocesan commission</small>
 
 +-- {.clearfix}
 &nbsp;

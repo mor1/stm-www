@@ -4,7 +4,7 @@ active: newsletters
 image: church-side.jpeg
 ---
 
-# 
+# Newsletters<br /><small>weekly parish events</small>
 
 +-- {.clearfix}
 &nbsp;

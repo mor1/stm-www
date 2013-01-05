@@ -4,7 +4,7 @@ active: pastoral-council
 image: church-side.jpeg
 ---
 
-# 
+# Pastoral Council <small>parish pastoral matters</small>
 
 +-- {.clearfix}
 &nbsp;

@@ -4,7 +4,7 @@ active: calendar
 image: church-side.jpeg
 ---
 
-# 
+# Parish Calendar <small>social &amp; liturgical events</small>
 
 +-- {.clearfix}
 &nbsp;

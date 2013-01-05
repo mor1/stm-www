@@ -4,7 +4,7 @@ active: zone-3
 image: church-side.jpeg
 ---
 
-#
+# Zone 3 <small>youth group</small>
 
 +-- {.clearfix}
 &nbsp;
