@@ -10,7 +10,7 @@ image: church-corner.jpeg
 &nbsp;
 =--
 
-+-- {.calendar .dl-horizontal}
++-- {.dl-horizontal}
 <section>
   <dl>
   {% for post in site.categories.calendar %}

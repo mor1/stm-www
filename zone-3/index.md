@@ -10,7 +10,7 @@ image: church-front.jpeg
 &nbsp;
 =--
 
-+-- {.zone-3 .dl-horizontal}
++-- {.dl-horizontal}
 <section>
   <dl>
   {% for post in site.categories.zone-3 %}

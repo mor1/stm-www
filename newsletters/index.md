@@ -10,7 +10,7 @@ image: church-side.jpeg
 &nbsp;
 =--
 
-+-- {.newsletters .dl-horizontal}
++-- {.dl-horizontal}
 <section>
   <dl>
   {% for post in site.categories.newsletters %}
