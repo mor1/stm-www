@@ -1,44 +1,57 @@
 @import "../_bootstrap/less/bootstrap.less";
 @import "../_bootstrap/less/responsive.less";
 
-div.center {
-  margin: auto;
-}
+
+@grayedOut: #bbb;
+
+div.center, 
 iframe.center {
-  margin: auto;
+    margin: auto;
 }
 
 @media (min-width: @navbarCollapseWidth) {
-  div.sidebar-fixed{
-    position: fixed;
-  } 
-  div.navbar {
-    display: none;
-  }
+    .sidebar-fixed{
+        position: fixed;
+    } 
+    .navbar {
+        display: none;
+    }
 }
 
 :link.external { 
-  background-image: url(/img/external.png);
-  background-repeat: no-repeat;
-  background-position: 100% 50%;
-  display: inline-block;
-  margin-right: 12px;
-  padding-right: 28px;
+    background-image: url(/img/external.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: inline-block;
+    margin-right: 12px;
+    padding-right: 28px;
 }
 
 footer.align-right {
-  float: none;
-  text-align: right;
+    float: none;
+    text-align: right;
 }
 
 .centered {
-  text-align: center;
+    text-align: center;
 }
 
-.dl-horizontal.dl-wide dt {
-  width: 15em;
+.dl-horizontal.dl-wide {
+    dt { width: 15em; }
+    dd { margin-left: 16.5em; }
 }
 
-.dl-horizontal.dl-wide dd {
-  margin-left: 16.5em;
+.dl-horizontal.commentaries {
+    h2 { }
+    ul { margin-left: 0;
+         list-style: none;
+         border-top: 1px solid @tableBorder; 
+       }
+
+    a.pdf:after { 
+        font-size: 65%;
+        vertical-align: super;
+        content: "\2009[\2009PDF\2009]"; 
+        color: @grayLight;
+    }
 }
