@@ -10,15 +10,8 @@ image: church-side.jpeg
 &nbsp;
 =--
 
-+-- {.dl-horizontal}
-<section>
-  <dl>
-  {% for post in site.categories.commentaries %}
-    <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
-    <dd>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </dd>
-  {% endfor %}
-  </dl>
-</section>
+&nbsp;
+
++-- {.well .well-small .muted .centered}
+Coming soon!
 =--

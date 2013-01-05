@@ -10,6 +10,12 @@ image: church-corner.jpeg
 &nbsp;
 =--
 
+&nbsp;
+
++-- {.well .well-small .muted .centered}
+Coming soon!
+=--
+
 +-- {.dl-horizontal}
 <section>
   <dl>
