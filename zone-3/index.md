@@ -1,7 +1,7 @@
 ---
 layout: page
 active: zone-3
-image: church-side.jpeg
+image: church-front.jpeg
 ---
 
 # Zone 3 <small>youth group</small>

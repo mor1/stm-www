@@ -1,7 +1,7 @@
 ---
 layout: page
 active: justice-peace
-image: church-side.jpeg
+image: church-corner.jpeg
 ---
 
 # Justice &amp; Peace <small>diocesan commission</small>

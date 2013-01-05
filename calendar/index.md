@@ -1,7 +1,7 @@
 ---
 layout: page
 active: calendar
-image: church-side.jpeg
+image: church-corner.jpeg
 ---
 
 # Parish Calendar <small>social &amp; liturgical events</small>
