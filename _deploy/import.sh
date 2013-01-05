@@ -19,7 +19,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
 # USA.
 
-set -ux
+set -eux
 
 ROOT=$(dirname $0)/../..
 IND=$ROOT/incoming
@@ -29,7 +29,6 @@ cd $IND
 for d in * ; do
     pushd $d
     for f in *.pdf ; do
-        echo ${f%.pdf}
         [ ! -r $f ] && continue
         OUTD_D=$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
         mkdir -p $(dirname $OUTD_D)
