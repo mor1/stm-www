@@ -44,3 +44,5 @@ EOF
     done
     popd
 done
+
+touch .imported
