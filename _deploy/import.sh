@@ -21,16 +21,16 @@
 
 set -eux
 
-ROOT=$(dirname $0)/../..
-IND=$ROOT/incoming
-OUTD=$ROOT/site
+ROOT=/home/stthnorg
+IND=$ROOT/public_ftp
+OUTD=$ROOT/stm-www
 
 cd $IND
 for d in * ; do
     pushd $d
     for f in *.pdf ; do
         [ ! -r $f ] && continue
-        OUTD_D=$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
+        OUTD_D=${OUTD}/$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
         mkdir -p $(dirname $OUTD_D)
         OUTF=$OUTD/$d/_posts/${f%.pdf}.html
         LINK=/$d/pdfs/$f
@@ -45,4 +45,4 @@ EOF
     popd
 done
 
-touch .imported
+touch ${OUTD}/.imported
