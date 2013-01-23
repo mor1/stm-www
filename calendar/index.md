@@ -6,17 +6,7 @@ image: church-corner.jpeg
 
 # Parish Calendar <small>social &amp; liturgical events</small>
 
-+-- {.clearfix}
-&nbsp;
-=--
-
-&nbsp;
-
-+-- {.well .well-small .muted .centered}
-Coming soon!
-=--
-
-+-- {.dl-horizontal}
++-- {.dl-horizontal .calendar .span10}
 <section>
   <dl>
   {% for post in site.categories.calendar %}
