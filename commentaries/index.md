@@ -46,7 +46,7 @@ imgtitle: Lindisfarne Gospels Portrait of St. Luke, by manuscript_nerd, http://w
         {{ site.time | date: "%m" | plus:dmonth }}
       {% endcapture %}
 
-      {% capture delta %}{{ tmonth | minus:month | minus:2 }}{% endcapture %}
+      {% capture delta %}{{ tmonth | minus:month | minus:1 }}{% endcapture %}
       {% if delta contains '-' %}
         (<a href="http://www.universalis.com/Europe.England.Westminster/{{ post.date | date: '%Y%m%d' }}/mass.htm">readings</a>)
       {% endif %}
