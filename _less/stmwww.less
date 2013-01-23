@@ -1,26 +1,11 @@
 @import "../_bootstrap/less/bootstrap.less";
 @import "../_bootstrap/less/responsive.less";
 
-
 @grayedOut: #bbb;
 
 div.center, 
 iframe.center {
     margin: auto;
-}
-
-@media (min-width: @navbarCollapseWidth) {
-    .sidebar-fixed{
-        position: fixed;
-    } 
-    .navbar {
-        display: none;
-    }
-
-    .dl-horizontal.dl-wide {
-        dt { width: 15em; }
-        dd { margin-left: 16.5em; }
-    }
 }
 
 :link.external { 
@@ -54,4 +39,42 @@ footer.align-right {
         content: "\2009[\2009PDF\2009]"; 
         color: @grayLight;
     }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    .sidebar-fixed { position: fixed; } 
+    .navbar { display: none; }
+    .dl-horizontal.dl-wide {
+        dt { width: 15em; }
+        dd { margin-left: 16.5em; }
+    }
+}
+
+/* Default */
+@media (min-width: 980px) and (max-width: 1199px) {
+    .sidebar-fixed { position: fixed; } 
+    .navbar { display: none; }
+    .dl-horizontal.dl-wide {
+        dt { width: 15em; }
+        dd { margin-left: 16.5em; }
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .sidebar-fixed { position: fixed; width: 174px;} 
+    .navbar { display: none; }
+    .dl-horizontal.dl-wide {
+        dt { width: 15em; }
+        dd { margin-left: 16.5em; }
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
 }
