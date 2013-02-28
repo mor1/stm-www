@@ -20,7 +20,7 @@ Welcome! These pages are currently under construction, so some of the links may 
 <address>
   <p>
     St. Thomas More Wollaton,<br />
-    Glenwood Close,<br />
+    Glenwood Avenue,<br />
     Wollaton,<br />
     Nottingham NG8 2GA
   </p>
