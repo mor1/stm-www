@@ -25,7 +25,13 @@ Welcome! These pages are currently under construction, so some of the links may 
     Nottingham NG8 2GA
   </p>
   <p>
-    <abbr title="Phone">Telephone:</abbr> 0115 922 8145
+    <abbr title="Phone">telephone:</abbr> 0115 922 8145
+  </p>
+  <p>
+    <abbr title="Email">email:</abbr> 
+    <a href="mailto:info@stthomasmorewollaton.org.uk">
+      info@stthomasmorewollaton.org.uk
+    </a>
   </p>
 </address>
 =--
