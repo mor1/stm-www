@@ -5,7 +5,7 @@ image: lindisfarne-luke.jpeg
 imgtitle: Lindisfarne Gospels Portrait of St. Luke, by manuscript_nerd, http://www.flickr.com/photos/83142434@N07/
 ---
 
-# Gospel Commentaries <small>Deacon Anthony</small> 
+# Gospel Commentaries<br /><small>Deacon Anthony</small> 
 
 +-- {.dl-horizontal .commentaries .span10}
 <section>
