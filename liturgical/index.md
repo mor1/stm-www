@@ -4,7 +4,7 @@ active: liturgical
 image: church-corner.jpeg
 ---
 
-# Liturgical Calendar <small>parish liturgical events</small>
+# Liturgical Calendar<br /><small>parish liturgical events</small>
 
 +-- {.dl-horizontal .calendar .span10}
 <section>

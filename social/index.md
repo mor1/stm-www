@@ -4,7 +4,7 @@ active: social
 image: church-corner.jpeg
 ---
 
-# Social Calendar <small>parish social events</small>
+# Social Calendar<br /><small>parish social events</small>
 
 +-- {.dl-horizontal .calendar .span10}
 <section>
