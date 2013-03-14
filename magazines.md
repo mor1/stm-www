@@ -15,6 +15,9 @@ title: Parish Magazine &laquo; St. Thomas More, Wollaton
 +-- {.dl-horizontal}
 
 [Advent 2012](http://www.theassumption.co.uk/docs/AnnuntioAdvent2012.pdf)
-: Covering Advent and Christmas, 2012
+: Advent and Christmas, 2012
+
+[Lent 2013](http://www.theassumption.co.uk/docs/AnnuntioLent2013.pdf)
+: Lent and Easter, 2013
 
 =--
