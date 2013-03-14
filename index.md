@@ -23,9 +23,7 @@ title: St. Thomas More Roman Catholic Church, Wollaton
     Nottingham NG8 2GA
   </p>
   <p>
-    <abbr title="Phone">telephone:</abbr> 0115 922 8145
-  </p>
-  <p>
+    <abbr title="Phone">telephone:</abbr> 0115 922 8145<br />
     <abbr title="Email">email:</abbr> 
     <a href="mailto:info@stthomasmorewollaton.org.uk">
       info@stthomasmorewollaton.org.uk
