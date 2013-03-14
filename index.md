@@ -37,9 +37,9 @@ title: St. Thomas More Roman Catholic Church, Wollaton
 +-- {.span6}
 ### Clergy
 
-Fr. Robert O'Callaghan (Parish Priest)
+[Fr. Robert O'Callaghan](./clergy/robert/) (Parish Priest)
 
-Rev. Anthony Cordes (Deacon)
+[Rev. Anthony Cordes](./clergy/anthony/) (Deacon)
 
 Fr. John Abbott (Retired Priest)
 
