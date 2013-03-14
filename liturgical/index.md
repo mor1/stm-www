@@ -1,10 +1,10 @@
 ---
 layout: page
-active: calendar
+active: liturgical
 image: church-corner.jpeg
 ---
 
-# Parish Calendar <small>social &amp; liturgical events</small>
+# Liturgical Calendar <small>parish liturgical events</small>
 
 +-- {.dl-horizontal .calendar .span10}
 <section>
