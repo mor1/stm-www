@@ -30,7 +30,7 @@ for d in * ; do
     pushd $d
     for f in *.pdf ; do
         [ ! -r $f ] && continue
-        OUTD_D=${OUTD}/$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
+        OUTD_D=$OUTD/$d/$(echo ${f%.pdf} | sed 's,-,/,1' | sed 's,-,/,1' | sed 's,-,/,1')
         mkdir -p $(dirname $OUTD_D)
         OUTF=$OUTD/$d/_posts/${f%.pdf}.html
         LINK=/$d/pdfs/$f
