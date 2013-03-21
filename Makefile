@@ -21,9 +21,11 @@
 LESSC = lessc
 JEKYLL = jekyll
 
-MIRROR = rsync -avz --rsh="ssh -p 722" --delete \
+RETRIEVE = rsync -avz --rsh="ssh -p 722" \
 	--exclude "_site" --exclude "_bootstrap" --exclude ".rebuilt" \
 	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules"
+
+MIRROR = $(RETRIEVE) --delete
 
 css: css/stmwww.css
 css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
@@ -54,6 +56,6 @@ rebuild:
 retrieve: 
 ## recover site source from server, allowing retrieval of results of
 ## commentary, etc import..
-	$(MIRROR) \
+	$(RETRIEVE) \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
