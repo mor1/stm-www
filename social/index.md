@@ -9,10 +9,10 @@ image: church-corner.jpeg
 +-- {.dl-horizontal .calendar .span10}
 <section>
   <dl>
-  {% for post in site.categories.calendar %}
+  {% for post in site.categories.social %}
     <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
     <dd>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a class="pdf" href="{{ post.url }}">{{ post.title }}</a>
     </dd>
   {% endfor %}
   </dl>
