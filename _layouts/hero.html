@@ -1,0 +1,21 @@
+---
+layout: default   
+---
+
+<div class="hero-unit">
+  <div class="row-fluid">
+    <div class="span8">
+      <h1>
+        {{ page.title }}<br />
+        <small>{{ page.tagline }}</small>
+      </h1>
+    </div>
+    {% if page.image %}
+    <div class="span4">
+      <img src="/img/{{ page.image }}" class="pull-right img-polaroid" />
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{{ content }}

@@ -1,19 +1,16 @@
 ---
-layout: page
-image: church-side.jpeg
+layout: hero
+image: holbein.jpeg
 active: home
 description: St. Thomas More Roman Catholic Church, Wollaton, Nottingham
-title: St. Thomas More Roman Catholic Church, Wollaton
+title: St. Thomas More, Wollaton
+tagline: Roman Catholic Church
 ---
-
-# St. Thomas More, Wollaton<br/><small>Roman Catholic Church</small>
-
-## <a id="contact"> </a>Contact
 
 +-- {.row}
 
-+-- {.span5 .offset1}
-### Address
++-- {.offset1 .span5}
+## Contact
 
 <address>
   <p>
@@ -32,8 +29,8 @@ title: St. Thomas More Roman Catholic Church, Wollaton
 </address>
 =--
 
-+-- {.span6}
-### Clergy
++-- {.span5}
+## Clergy
 
 [Fr. Robert O'Callaghan](./clergy/robert/) (Parish Priest)
 
@@ -42,8 +39,10 @@ title: St. Thomas More Roman Catholic Church, Wollaton
 Fr. John Abbott (Retired Priest)
 
 =--
-
 =--
+
++-- {.row}
++-- {.span11 .offset1}
 
 ## Related Links
 
@@ -71,3 +70,6 @@ Fr. John Abbott (Retired Priest)
 : His writings
 
 =--
+=--
+=--
+
