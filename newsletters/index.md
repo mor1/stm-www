@@ -16,6 +16,10 @@ image: church-side.jpeg
   {% for post in site.categories.newsletters %}
     <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
     <dd>
+      <a class="pdf" href="http://www.theassumption.co.uk/docs/{{ post.date | date: "%Y-%m-%d" }}.pdf">
+        The Assumption &amp; St. Thomas More combined newsletter
+      </a>
+      <br />
       <a class="pdf" href="{{ post.url }}">{{ post.title }}</a>
     </dd>
   {% endfor %}
