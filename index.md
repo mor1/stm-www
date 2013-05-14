@@ -2,8 +2,8 @@
 layout: hero
 image: holbein.jpeg
 active: home
-description: St. Thomas More Roman Catholic Church, Wollaton, Nottingham
-title: St. Thomas More, Wollaton
+description: St Thomas More Roman Catholic Church, Wollaton, Nottingham
+title: St Thomas More, Wollaton
 tagline: Roman Catholic Church
 ---
 
@@ -14,7 +14,7 @@ tagline: Roman Catholic Church
 
 <address>
   <p>
-    St. Thomas More Wollaton,<br />
+    St Thomas More Wollaton,<br />
     Glenwood Avenue,<br />
     Wollaton,<br />
     Nottingham NG8 2GA
@@ -32,11 +32,11 @@ tagline: Roman Catholic Church
 +-- {.span5}
 ## Clergy
 
-[Fr. Robert O'Callaghan](./clergy/robert/) (Parish Priest)
+[Fr Robert O'Callaghan](./clergy/robert/) (Parish Priest)
 
 [Rev. Anthony Cordes](./clergy/anthony/) (Deacon)
 
-Fr. John Abbott (Retired Priest)
+Fr John Abbott (Retired Priest)
 
 =--
 =--
@@ -63,10 +63,10 @@ Fr. John Abbott (Retired Priest)
 [The Vatican](http://www.vatican.va/phome_en.htm)
 : Official website
 
-[St. Thomas More](http://www.apostles.com/thomasmore.html)
+[St Thomas More](http://www.apostles.com/thomasmore.html)
 : About our patron saint
 
-[Fr. Philip O'Dowd](http://philip-o-dowd.com/)
+[Fr Philip O'Dowd](http://philip-o-dowd.com/)
 : His writings
 
 =--

@@ -2,8 +2,8 @@
 layout: page
 image: annuntio.png
 active: magazines
-description: St. Thomas More Roman Catholic Church, Wollaton, Nottingham
-title: Parish Magazine &laquo; St. Thomas More, Wollaton
+description: St Thomas More Roman Catholic Church, Wollaton, Nottingham
+title: Parish Magazine &laquo; St Thomas More, Wollaton
 ---
 
 # Annuntio<br /><small>seasonal parish magazine</small>
