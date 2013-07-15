@@ -33,10 +33,10 @@ css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
 	$(LESSC) --compress _less/stmwww.less >| css/stmwww.css
 
 site: css _config.yml
-	$(JEKYLL) --safe
+	$(JEKYLL) build
 
 test: css
-	$(JEKYLL) --auto --serve --safe 
+	$(JEKYLL) serve --watch --trace
 
 clean:
 	$(RM) -r _site css
@@ -56,6 +56,8 @@ rebuild:
 retrieve: 
 ## recover site source from server, allowing retrieval of results of
 ## commentary, etc import..
+	git stash
 	$(RETRIEVE) \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
+	git stash pop
