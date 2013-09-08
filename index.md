@@ -32,11 +32,11 @@ tagline: Roman Catholic Church
 +-- {.span5}
 ## Clergy
 
-[Fr Robert O'Callaghan](./clergy/robert/) (Parish Priest)
+Fr David Palmer (Parish Priest)
 
 [Rev. Anthony Cordes](./clergy/anthony/) (Deacon)
 
-Fr John Abbott (Retired Priest)
+Fr John Abbott (Retired Priest in Residence)
 
 =--
 =--
