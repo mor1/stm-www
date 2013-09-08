@@ -8,18 +8,16 @@ image: church-front.jpeg
 
 ### Mass Times
 
-Sunday Mass: 6.30pm (Saturday vigil), 11.00am
+Sunday Mass: 4.30pm (Saturday vigil), 9.15am
 
 Holy Days: 7.30pm
 
 #### Weekdays 
 
-Monday, Wednesday, Friday: 7.30pm
+Thursday: 9.00am
 
-Tuesday, Thursday: 9.00am
-
-Saturday: 9.00am
+Friday: 7.00pm
 
 ### Confessions
 
-Saturday: 9.30am; or [by appointment](mailto:info@stthomasmorewollaton.org.uk)
+Saturday: 4pm; or [by appointment](mailto:info@stthomasmorewollaton.org.uk)
