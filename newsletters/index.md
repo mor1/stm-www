@@ -32,10 +32,18 @@ image: church-side.jpeg
     <li>
       <dt>{{ post.date | date: "%B %e, %Y" }}</dt>
       <dd>
+
+{% comment %}
+parish was split from beeston and rejoined with st paul's and st mary's in
+summer 2013. the last joint newsletter i have a supplement for is 2013-07-21.
+{% endcomment %}
+{% if date <= 20130721 %}
         <a class="pdf" href="http://www.theassumption.co.uk/docs/{{ post.date | date: "%Y-%m-%d" }}.pdf">
           The Assumption &amp; St Thomas More combined newsletter
        </a>
         <br />
+{% endif %}
+
         <a class="pdf" href="{{ post.url }}">{{ post.title }}</a>
       </dd>
     </li>
