@@ -51,7 +51,7 @@ summer 2013. the last joint newsletter i have a supplement for is 2013-07-21.
     {% if year != nyear %}    
         </ul>
       </dl>
-      <h2>{{ year }}</h2>
+      <h2>{{ nyear }}</h2>
       <dl>
         <ul>
     {% elsif month != nmonth %}
