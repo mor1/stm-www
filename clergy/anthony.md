@@ -6,7 +6,7 @@ description: Rev. Anthony Cordes
 title: Rev. Anthony Cordes (Deacon)
 ---
 
-# Rev. Anthony Cordes<br /><small>deacon</small>
+# Rev. Anthony Cordes<br /><small>Deacon</small>
 
 Anthony was ordained Deacon 2001 but has served in the parish of St. Thomas More since 1996. He is married to Frances and they have three adult children. He is deeply indebted to his wife and his children for the sacrifices they have and continue to make in supporting him in his work as a Deacon.
 
