@@ -48,7 +48,7 @@ imgtitle: Lindisfarne Gospels Portrait of St. Luke, by manuscript_nerd, http://w
     {% if year != nyear %}    
         </ul>
       </dl>
-      <h2>{{ year }}</h2>
+      <h2>{{ nyear }}</h2>
       <dl>
         <ul>
     {% elsif month != nmonth %}
