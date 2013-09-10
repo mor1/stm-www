@@ -13,10 +13,14 @@ image: church-side.jpeg
     {% assign post_next = site.categories.newsletters[forloop.index] %}
     
     {% if post_next %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
-      {% capture nyear %}{{ post_next.date | date: '%Y' }}{% endcapture %}
-      {% capture nmonth %}{{ post_next.date | date: '%m' }}{% endcapture %}
+      {% assign date = post.date | date: '%Y%m%d' | plus: 0 %}
+
+      {% assign year = post.date | date: '%Y' | plus: 0 %}
+      {% assign month = post.date | date: '%m' | plus: 0 %}
+      {% assign day = post.date | date: '%d' | plus: 0 %}
+
+      {% assign nyear = post_next.date | date: '%Y' | plus: 0 %}
+      {% assign nmonth = post_next.date | date: '%m' | plus: 0 %}
     {% endif %}    
     
     {% if forloop.first %}
