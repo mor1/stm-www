@@ -12,7 +12,7 @@ Sunday Mass: 4.30pm (Saturday vigil), 9.15am
 
 Holy Days: 7.30pm
 
-#### Weekdays 
+#### Weekdays
 
 Thursday: 9.00am
 
