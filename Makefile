@@ -60,4 +60,4 @@ retrieve:
 	$(RETRIEVE) \
 	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
-	git stash pop || true
+	## git stash pop || true
