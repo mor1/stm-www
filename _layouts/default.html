@@ -13,24 +13,24 @@
     <meta name="author" content="{{ site.author }}" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1, 
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,
                    maximum-scale=1, user-scalable=no" />
-    
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' 
-          rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911'
+          rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" media="screen" 
+    <link rel="stylesheet" media="screen"
           href="/css/stmwww.css" type="text/css" />
 
     {% if site.feedburner %}
-    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" 
-          rel="alternate" title="{{ site.title }}" 
+    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}"
+          rel="alternate" title="{{ site.title }}"
           type="application/atom+xml" />
     {% endif %}
 
@@ -41,16 +41,16 @@
       _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
       _gaq.push(['_trackPageview']);
       (function() {
-      var ga = document.createElement('script'); 
+      var ga = document.createElement('script');
       ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ?
           'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; 
+      var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(ga, s);
       })();
     </script>
     {% endif %}
-  
+
   </head>
 
   <body>
@@ -58,7 +58,7 @@
     <div class="navbar navbar-inverse navbar-static-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <button type="button" class="btn btn-navbar" 
+          <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -81,21 +81,21 @@
         <div class="span9">
           {{ content }}
         </div>
-        
+
       </div>
     </div>
-    
+
     {% include footer.html %}
-    
+
     {% if site.github %}
     <a href="http://github.com/{{ site.github.username }}">
-      <img style="position: absolute; top: 0; right: 0; border: 0;" 
-src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" 
+      <img style="position: absolute; top: 0; right: 0; border: 0;"
+src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
            alt="Fork me on GitHub" />
     </a>
     {% endif %}
 
     <script src="/js/jquery.js"> </script>
-    <script src="/js/bootstrap.min.js"> </script>  
+    <script src="/js/bootstrap.min.js"> </script>
   </body>
 </html>
