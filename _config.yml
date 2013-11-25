@@ -17,5 +17,5 @@ email: mort@cantab.net
 google_analytics:
   account: UA-36588644-1
 
-# pagination for blog-based pages
-paginate: 5
+## pagination for blog-based pages
+# paginate: 5
