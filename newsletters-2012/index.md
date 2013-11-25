@@ -1,6 +1,6 @@
 ---
 layout: page
-active: newsletters
+active: newsletters-2012
 image: church-side.jpeg
 ---
 
@@ -8,9 +8,9 @@ image: church-side.jpeg
 
 +-- {.dl-horizontal .calendar .span10}
 <section>
-  {% for post in site.categories.newsletters %}
+  {% for post in site.categories.newsletters-2012 %}
 
-    {% assign post_next = site.categories.newsletters[forloop.index] %}
+    {% assign post_next = site.categories.newsletters-2012[forloop.index] %}
 
     {% if post_next %}
       {% assign date = post.date | date: '%Y%m%d' | plus: 0 %}
