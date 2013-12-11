@@ -12,11 +12,11 @@ image: church-side.jpeg
 
     {% assign post_next = site.categories.newsletters[forloop.index] %}
 
-      {% assign date = post.date | date: '%Y%m%d' | plus: 0 %}
+    {% assign date = post.date | date: '%Y%m%d' | plus: 0 %}
 
-      {% assign year = post.date | date: '%Y' | plus: 0 %}
-      {% assign month = post.date | date: '%m' | plus: 0 %}
-      {% assign day = post.date | date: '%d' | plus: 0 %}
+    {% assign year = post.date | date: '%Y' | plus: 0 %}
+    {% assign month = post.date | date: '%m' | plus: 0 %}
+    {% assign day = post.date | date: '%d' | plus: 0 %}
 
     {% if post_next %}
       {% assign nyear = post_next.date | date: '%Y' | plus: 0 %}
@@ -38,15 +38,17 @@ image: church-side.jpeg
       </dd>
     </li>
 
-    {% if post_next && year != nyear %}
-        </ul>
-      </dl>
-      <h2>{{ nyear }}</h2>
-      <dl>
-        <ul>
-    {% elsif post_next && month != nmonth %}
-        </ul>
-        <ul>
+    {% if post_next %}
+      {% if year != nyear %}
+          </ul>
+        </dl>
+        <h2>{{ nyear }}</h2>
+        <dl>
+          <ul>
+      {% elsif month != nmonth %}
+          </ul>
+          <ul>
+      {% endif %}
     {% endif %}
 
     {% if forloop.last %}

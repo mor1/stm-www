@@ -46,15 +46,17 @@ imgtitle: Lindisfarne Gospels Portrait of St. Matthew, by Meister des Book of Li
       </dd>
     </li>
 
-    {% if post_next && year != nyear %}
-        </ul>
-      </dl>
-      <h2>{{ nyear }}</h2>
-      <dl>
-        <ul>
-    {% elsif post_next && month != nmonth %}
-        </ul>
-        <ul>
+    {% if post_next %}
+      {% if year != nyear %}
+          </ul>
+        </dl>
+        <h2>{{ nyear }}</h2>
+        <dl>
+          <ul>
+      {% elsif month != nmonth %}
+          </ul>
+          <ul>
+      {% endif %}
     {% endif %}
 
     {% if forloop.last %}
