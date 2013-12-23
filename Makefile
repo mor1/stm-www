@@ -46,18 +46,18 @@ deploy: css
 ## server. this permits upload and automatic publishing of commentaries etc.
 	$(MIRROR) \
 		. \
-	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
+		stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www
 
 rebuild:
 ## invoke the rebuild script on the server; assumes have deployed.
 	ssh -p 722 stthnorg@stthomasmorewollaton.org.uk \
-		"./stm-www/_deploy/rebuild.sh"
+		"./stm-www/_deploy/import.sh && ./stm-www/_deploy/rebuild.sh"
 
-retrieve: 
+retrieve:
 ## recover site source from server, allowing retrieval of results of
 ## commentary, etc import..
 	git stash
 	$(RETRIEVE) \
-	    stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
+		stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
 	## git stash pop || true
