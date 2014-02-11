@@ -14,7 +14,7 @@ Holy Days: see [the week's newsletter](/newsletters/) for details.
 
 #### Weekdays
 
-Thursday: 9.00am
+Tuesday, Thursday: 9.00am
 
 Friday: 7.00pm
 
