@@ -45,6 +45,14 @@ Fr John Abbott (Retired Priest in Residence)
 +-- {.row}
 +-- {.span11 .offset1}
 
+<p>
+  To join our <strong>100 Club</strong>, please <abbr title="100Club">email us
+  at</abbr>
+  <a href="mailto:100club@stthomasmorewollaton.org.uk">
+    100club@stthomasmorewollaton.org.uk
+  </a>
+</p>
+
 ## Related Links
 
 +-- {.dl-horizontal .dl-wide}
