@@ -20,8 +20,9 @@ tagline: Roman Catholic Church
     Nottingham NG8 2GA
   </p>
   <p>
-    <abbr title="Phone">telephone:</abbr> 0115 978 6236<br />
-    <abbr title="Email">email:</abbr> 
+    <abbr title="Phone">telephone:</abbr> 0115 978 6236
+    <br />
+    <abbr title="Email">email:</abbr>
     <a href="mailto:info@stthomasmorewollaton.org.uk">
       info@stthomasmorewollaton.org.uk
     </a>
@@ -72,4 +73,3 @@ Fr John Abbott (Retired Priest in Residence)
 =--
 =--
 =--
-
