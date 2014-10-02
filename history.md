@@ -18,4 +18,11 @@ From then on St Thomas More has not had a resident Parish Priest living in the p
 
 It was with much joy that on 1 January 2013 we welcomed Fr Robbie O'Callaghan as
 our new Parish Priest. However, following a review by the Bishop it was decided
-to restore the Parish's original link with St Paul's. As a result, from 1 September 2013 Fr David Palmer has taken on responsibility for St Thomas More along with the Parish of St Paul's Lenton and St Mary's Hyson Green.
+to restore the Parish's original link with St Paul's. As a result, from 1
+September 2013 Fr David Palmer has taken on responsibility for St Thomas More
+along with the Parish of St Paul's Lenton and St Mary's Hyson Green. Following a
+further review of the workloads of the priests responsible for the pastoral care
+of the the various parishes on the Nottingham/Derby border, Canon Ka Fai Lee
+Parish Priest of St Hugh Borrowash took on the role of Parochial Administrator
+of St Thomas More from 1 October 2014. We welcome him to our community and pray
+that his period of time with us will be both joyous and fruitful.
