@@ -33,7 +33,7 @@ tagline: Roman Catholic Church
 +-- {.span5}
 ## Clergy
 
-[Fr David Palmer](http://stpaulsstmarys.org.uk/) (Parish Priest)
+[Canon Ka Fai Lee](http://sthughborrowash.org.uk/parish/whos-who/) (Parish Priest)
 
 [Rev. Anthony Cordes](./clergy/anthony/) (Deacon)
 
@@ -57,7 +57,7 @@ Fr John Abbott (Retired Priest in Residence)
 
 +-- {.dl-horizontal .dl-wide}
 
-[St Paul's with St Mary's, Nottingham](http://stpaulsstmarys.org.uk/)
+[St Hugh's, Borrowash](http://sthughborrowash.org.uk/)
 : Our linked parish
 
 [Calendar](http://www.easterbrooks.com/personal/calendar/index.php)
