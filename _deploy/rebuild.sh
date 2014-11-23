@@ -21,6 +21,11 @@
 
 set -eu
 
-cd /home/stthnorg/stm-www
+cd /home/stthnorg/public_html
+mv wp .wp
 
+cd /home/stthnorg/stm-www
 jekyll --safe ../public_html >/dev/null && touch .rebuilt
+
+cd /home/stthnorg/public_html
+mv .wp wp

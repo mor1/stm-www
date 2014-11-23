@@ -23,9 +23,7 @@ JEKYLL = jekyll
 
 RETRIEVE = rsync -avz --rsh="ssh -p 722" \
 	--exclude "_site" --exclude "_bootstrap" --exclude ".rebuilt" \
-	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules" \
-	--exclude "wp"
-
+	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules"
 MIRROR = $(RETRIEVE) --delete
 
 site: css _config.yml
