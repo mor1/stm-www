@@ -24,4 +24,3 @@ set -eu
 cd /home/stthnorg/stm-www
 
 jekyll --safe ../public_html >/dev/null && touch .rebuilt
-

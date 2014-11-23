@@ -23,14 +23,10 @@ JEKYLL = jekyll
 
 RETRIEVE = rsync -avz --rsh="ssh -p 722" \
 	--exclude "_site" --exclude "_bootstrap" --exclude ".rebuilt" \
-	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules"
+	--exclude ".git" --exclude ".gitignore" --exclude ".gitmodules" \
+	--exclude "wp"
 
 MIRROR = $(RETRIEVE) --delete
-
-css: css/stmwww.css
-css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
-	mkdir -p css
-	$(LESSC) --compress _less/stmwww.less >| css/stmwww.css
 
 site: css _config.yml
 	$(JEKYLL) build
@@ -60,4 +56,9 @@ retrieve:
 	$(RETRIEVE) \
 		stthnorg@stthomasmorewollaton.org.uk:/home/stthnorg/stm-www/ \
 		./
-	## git stash pop || true
+	 ## git stash pop || true
+
+css: css/stmwww.css
+css/stmwww.css: $(wildcard _less/*.less) $(wildcard _bootstrap/less/*.less)
+	mkdir -p css
+	$(LESSC) --compress _less/stmwww.less >| css/stmwww.css
