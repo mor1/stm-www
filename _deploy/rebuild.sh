@@ -22,10 +22,11 @@
 set -eux
 
 cd /home/stthnorg/public_html
-mv wp .wp
+rm -rf ../wp-tmp
+[ -d "wp" ] && mv wp ../wp-tmp
 
 cd /home/stthnorg/stm-www
 jekyll --safe ../public_html >/dev/null && touch .rebuilt
 
 cd /home/stthnorg/public_html
-mv .wp wp
+mv ../wp-tmp wp
